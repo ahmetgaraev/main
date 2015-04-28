@@ -10,8 +10,7 @@
     function Revers($str)
     {
         $result;
-        for ($i = strlen($str); $i > 0; $i--)
-        {
+        for ($i = strlen($str); $i > 0; $i--) {
             $result .= $str[$i-1];
         }
         return $result;
@@ -23,4 +22,11 @@
         $f = fopen("data/{$email}.txt", "w");
         fwrite($f, $data);
         fclose($f);
+    }
+    function SurveyInfo($email)
+    {
+        if (file_exists("data/{$email}.txt")) {
+            $file = file_get_contents("data/{$email}.txt", FILE_USE_INCLUDE_PATH);
+            echo $file;
+        }
     }
