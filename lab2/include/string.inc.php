@@ -19,18 +19,6 @@
         return $result;
     }
 
-    function SurveySaver($first_name, $last_name, $email, $age)
-    {
-        $data = "First Name: {$first_name},\r\nLast Name: {$last_name},\r\nEmail: {$email},\r\nAge: {$age}";
-        if (!is_dir("data")) 
-        {
-            mkdir("data");
-        }
-        $f = fopen("data/{$email}.txt", "w");
-        fwrite($f, $data);
-        fclose($f);
-    }
-
     function SurveyInfo($email)
     {
         if (file_exists("data/{$email}.txt")) 
