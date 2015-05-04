@@ -19,27 +19,6 @@
         return $result;
     }
 
-    function SurveySaver($first_name, $last_name, $email, $age)
-    {
-        $data = "First Name: {$first_name},\r\nLast Name: {$last_name},\r\nEmail: {$email},\r\nAge: {$age}";
-        if (!is_dir("data")) 
-        {
-            mkdir("data");
-        }
-        $f = fopen("data/{$email}.txt", "w");
-        fwrite($f, $data);
-        fclose($f);
-    }
-
-    function SurveyInfo($email)
-    {
-        if (file_exists("data/{$email}.txt")) 
-        {
-            $file = file_get_contents("data/{$email}.txt", FILE_USE_INCLUDE_PATH);
-            echo $file;
-        }
-    }
-
     function PasswordStrength($password)
     {
             echo "password: {$password}\r\n";
@@ -50,6 +29,7 @@
                     $point += 4;
             echo "point: $point";
     }
+
     /*
     4) К надежности прибавляется +((len-n)*2) в случае, если пароль содержит n символов в верхнем регистре
     5) К надежности прибавляется +((len-n)*2) в случае, если пароль содержит n символов в нижнем регистре
