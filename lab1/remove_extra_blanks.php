@@ -4,7 +4,7 @@
     $result = '';
     foreach($arr as $value)
     {
-        if ($value) 
+        if ($value)
         {
             $result .= ' ' . $value;
         }
