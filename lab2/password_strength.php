@@ -2,39 +2,72 @@
     header("Content-Type: text/plain");
     require_once('include/common.inc.php');
 
-    function PasswordStrength($password)
+    function CalcStrengthForLength($password)
     {
-        $length = strlen($password);
-        $point = 0;
-        $point += 4 * $length;
-        $point += ( strlen( preg_replace('/[^\d]/', '', $password) ) ) * 4;
-        $count_up = strlen( preg_replace('/[^A-Z]/', '', $password) );
-        $point += ($length - $count_up) * 2;
-        $count_down = strlen( preg_replace('/[^a-z]/', '', $password) );
-        $point += ($length - $count_down) * 2;
+        return 4 * strlen($password);
+    }
 
-        if ( preg_replace('/[a-zA-Z]/', '', $password) != $password )
+    function CalcStrengthForDigits($password)
+    {
+        return strlen( preg_replace('/[^0-9]/', '', $password) ) * 4;
+    }
+    
+    function CalcStrengthForUpper($password)
+    {
+        $countUp = strlen( preg_replace('/[^A-Z]/', '', $password) );
+        return (strlen($password) - $countUp) * 2;
+    }
+    
+    function CalcStrengthForLower($password)
+    {
+        $countDown = strlen( preg_replace('/[^a-z]/', '', $password) );
+        return (strlen($password) - $countDown) * 2;
+    }
+    
+    function CalcStrengthOnlyChars($password)
+    {
+        if ( preg_replace('/[a-zA-Z]/', '', $password) == $password )
         {
-            $point -= $length;
+            return strlen($password);
         }
-
-        if ( preg_replace('/[0-9]/', '', $password) != $password )
+    }
+    
+    function CalcStrengthOnlyDigits($password)
+    {
+        if ( preg_replace('/[0-9]/', '', $password) == $password )
         {
-            $point -= $length;
+            return strlen($password);
         }
+    }
+    
+    function CalcStrengthDupplicates($password)
+    {
+        $value = 0;
+        $arrChars = count_chars($password, 1);
 
-        $arr_chars = count_chars($password, 1);
-
-        foreach ($arr_chars as $count) 
+        foreach ($arrChars as $count) 
         {
             if ($count > 1)
             {
-                $point -= $count;
+                $value += $count;
             }
             
         }
-
-        echo $point;
+        return $value;
     }
 
-    echo PasswordStrength( GetParamFromGet('password', '') );
+    function CalcPasswordStrength($password)
+    {
+        $strength = 0;
+        $strength += CalcStrengthForLength($password);
+        $strength += CalcStrengthForDigits($password);
+        $strength += CalcStrengthForUpper($password);
+        $strength += CalcStrengthForLower($password);
+        $strength -= CalcStrengthOnlyChars($password);
+        $strength -= CalcStrengthOnlyDigits($password);
+        $strength -= CalcStrengthDupplicates($password);
+
+        return $strength;
+    }
+
+    echo CalcPasswordStrength( GetParamFromGet('password', '') );
