@@ -24,12 +24,12 @@
 
     function GetSurveyFilePath($email)
     {
-        CreateSurveyDir();
         return dirname(__FILE__) . '\\data\\' . $email . '.txt';
     }
 
     function SaveSurveyToFile($survey)
     {
+        CreateSurveyDir();
         $path = GetSurveyFilePath($survey['email']);
         $data = serialize($survey);
 
