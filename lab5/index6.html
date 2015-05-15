@@ -4,41 +4,66 @@
 <meta charset="utf-8">
 <title>Основные теги</title>
 <style>
-    hr
-    {
-        height: 2px;
-        margin: 0 0 35px;
-    }
-    .conteiner_cat
-    {
-         width: 240px; 
-         height: 240px; 
-         border: 1px solid black; 
-         margin: 15px 0;
-    }
+  hr
+  {
+      height: 2px;
+      margin: 0 0 35px;
+  }
 
-    .subcontainer_cat
-    {
-         width: 160px; 
-         height: 160px;
-         margin: 20px auto;
-    }
+  .conteiner_cat
+  {
+      width: 240px; 
+      height: 240px; 
+      border: 1px solid black; 
+      margin: 15px 0;
+  }
 
-    .button
-    {
-        background: #FFFFFF;
-        display: block;
-        width: 100px;
-        height: 100px;
-    }
+  .subcontainer_cat
+  {
+      width: 160px; 
+      height: 160px;
+      margin: 20px auto;
+  }
 
-    .button p: hover
-    {
-        height: 100px;
-        width: 100px;
-        background-color: #0000FF;
-        display: block;
-    }
+  .button
+  {
+      background: #eaeaea;
+      display: block;
+      width: 250px;
+      height: 50px;
+  }
+
+  .roll 
+  { 
+      position: relative; 
+      display: inline-block; 
+  }
+
+  .rollover 
+  { 
+      position: absolute; 
+      top: 0; 
+      left:0; 
+  }
+
+  .roll .rollover
+  { 
+      display: none; 
+  }
+
+  .roll:hover .rollover 
+  { 
+      display: block; 
+  }
+
+  .roll span {
+    position:absolute;
+    top:0px;   
+    left:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    padding:10px 10px;
+  }
 </style>
 </head>
 <body style="margin: 0;">
@@ -62,10 +87,10 @@
       <p>Они такие милые...</p>
     </div>
   </div>
-  <div class="button">
-    <p>
-      Кнопка
-    </p>
+  <div class="roll">
+    <img src="./images/button.png"/>
+    <img class="rollover" src="./images/button-over.png"/>
+      <span>Погладить пушистых котиков</span>
   </div>
 </body>
 </html>
