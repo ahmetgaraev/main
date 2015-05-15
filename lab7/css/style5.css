@@ -1,0 +1,35 @@
+.title_blue
+{
+    border-bottom: 2px solid blue;
+}
+
+.title_red
+{
+    border-bottom: 2px solid red;
+}
+
+.table_tag,
+.table_style_properties
+{
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+
+.table_tag_th,
+.table_style_properties_th
+{
+    font-weight: bold; 
+    text-align: center; 
+    background-color: #f1f1f1;
+}
+
+.table_style_properties_th
+{
+    border: 1px solid #000080;
+}
+
+th, 
+td
+{
+    border: 1px solid #000080;
+}

@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Основные теги</title>
+<style>
+  hr
+  {
+      height: 2px;
+      margin: 0 0 35px;
+  }
+
+  .conteiner_cat
+  {
+      width: 240px; 
+      height: 240px; 
+      border: 1px solid black; 
+      margin: 15px 0;
+  }
+
+  .subcontainer_cat
+  {
+      width: 160px; 
+      height: 160px;
+      margin: 20px auto;
+  }
+
+  .button
+  {
+      background: #eaeaea;
+      display: block;
+      width: 250px;
+      height: 50px;
+  }
+
+  .roll 
+  { 
+      position: relative; 
+      display: inline-block; 
+  }
+
+  .rollover 
+  { 
+      position: absolute; 
+      top: 0; 
+      left:0; 
+  }
+
+  .roll .rollover
+  { 
+      display: none; 
+  }
+
+  .roll:hover .rollover 
+  { 
+      display: block; 
+  }
+
+  .roll span 
+  {
+    position:absolute;
+    top:0px;   
+    left:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    padding:10px 10px;
+  }
+</style>
+</head>
+<body style="margin: 0;">
+  <h1 style="height: 15px;">Котики</h1>
+  <hr style="background-color: blue; color: blue;">
+  <div style="background: url(./images/texture1.jpg);" class="conteiner_cat">
+    <div class="subcontainer_cat">
+      <img src="./images/cat1.jpg" alt="Котик" >
+      <p >Они такие разные...</p>
+    </div>
+  </div>
+  <div style="background: url(./images/texture3.jpg);" class="conteiner_cat">
+    <div class="subcontainer_cat">
+      <img src="./images/cat2.jpg" alt="Котик">
+      <p>Они такие классные...</p>
+    </div>
+  </div>
+  <div style="background: url(./images/texture2.jpg);" class="conteiner_cat">
+    <div class="subcontainer_cat">
+      <img src="./images/cat3.jpg" alt="Котик">
+      <p>Они такие милые...</p>
+    </div>
+  </div>
+  <div class="roll">
+    <img src="./images/button.png"/>
+    <img class="rollover" src="./images/button-over.png"/>
+      <span>Погладить пушистых котиков</span>
+  </div>
+</body>
+</html>
