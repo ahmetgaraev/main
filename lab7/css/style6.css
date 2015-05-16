@@ -1,0 +1,59 @@
+.title_blue
+{
+    border-bottom: 2px solid blue;
+}
+
+.conteiner_cat
+{
+    width: 240px; 
+    height: 240px; 
+    border: 1px solid black; 
+    margin: 15px 0;
+}
+
+.subcontainer_cat
+{
+    width: 160px; 
+    height: 160px;
+    margin: 20px auto;
+}
+
+.button
+{
+    background: #eaeaea;
+    display: block;
+    width: 250px;
+    height: 50px;
+}
+
+.roll 
+{ 
+    position: relative; 
+    display: inline-block; 
+}
+
+.rollover 
+{ 
+    position: absolute; 
+    top: 0; 
+    left:0; 
+}
+
+.roll .rollover
+{ 
+    display: none; 
+}
+
+.roll:hover .rollover 
+{ 
+    display: block; 
+}
+
+.roll span 
+{
+    position:absolute;
+    top:0px;   
+    left:0px;
+    font: bold 12px/14px Arial, Helvetica, sans-serif;
+    padding: 20px 90px;
+}
