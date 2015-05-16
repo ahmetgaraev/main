@@ -1,3 +1,8 @@
+body
+{
+    margin: 0;
+}
+
 .title_blue
 {
     border-bottom: 2px solid blue;
@@ -9,13 +14,23 @@
     height: 240px; 
     border: 1px solid black; 
     margin: 15px 0;
+    padding: 20px 0 0;
+    text-align: center;
 }
 
-.subcontainer_cat
+.cat1
 {
-    width: 160px; 
-    height: 160px;
-    margin: 20px auto;
+    background: url("../images/texture1.jpg");
+}
+
+.cat2
+{
+    background: url("../images/texture3.jpg");
+}
+
+.cat3
+{
+    background: url("../images/texture2.jpg");
 }
 
 .button
@@ -36,7 +51,7 @@
 { 
     position: absolute; 
     top: 0; 
-    left:0; 
+    left: 0; 
 }
 
 .roll .rollover
@@ -51,9 +66,9 @@
 
 .roll span 
 {
-    position:absolute;
-    top:0px;   
-    left:0px;
+    position: absolute;
+    top: 0px;   
+    left: 0px;
     font: bold 12px/14px Arial, Helvetica, sans-serif;
     padding: 20px 90px;
 }
