@@ -1,0 +1,117 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    height: 246px;
+    width: 317px;
+    display: inline-block;
+    background-color: #F4F4F4;
+}
+
+.main
+{
+    list-style: none;
+    margin: 17px 15px;
+}
+
+.main li
+{
+    width: 270px;
+    margin-bottom: 13px;
+    font: 12px/14px arial;
+    padding: 2px 0 0 28px;
+    letter-spacing: 0.25px;
+    background: url("../images/background.png") no-repeat;
+}
+
+.main .header
+{
+    height: 25px;
+    width: 254px;
+    font: 18px/13px arial bold;
+    letter-spacing: 0.57px;
+    background: url("../images/arrow.png") no-repeat scroll 1px 4px;
+    border-bottom: 6px solid black;
+    margin-bottom: 17px;
+    padding: 0 0 0 29px;
+}
+
+.main .extra_indent
+{
+    margin-top: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body
+{
+	height: 317px;
+    width: 246px;
+    background: url("../images/task1.png") no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.header,
+.list
+{
+    list-style: none;
+    padding: 0;
+    margin: 17px 15px;
+}
+
+.header
+{
+    border-bottom: 6px solid black;
+    font: 18px/13px arial bold;
+    height: 25px;
+    letter-spacing: 0.57px;
+    width: 283px;
+}
+
+.header li
+{
+    background: url("../images/arrow.png") no-repeat scroll 1px 4px;
+    padding: 0 0 0 29px;
+}
+
+.list
+{
+    font: 12px/14px arial;
+    letter-spacing: 0.34px;
+    width: 302px;
+}
+
+.list li
+{
+    background: url("../images/background.png") no-repeat;
+    padding: 2px 0 0 28px;
+    margin-bottom: 13px;
+}
+
+.list .indent
+{
+    margin-top: 14px;
+}
+*/
