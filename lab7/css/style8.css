@@ -1,0 +1,116 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.main
+{
+    height: 331px;
+    width: 351px;
+    display: inline-block;
+    background: url("../images/task2.png") no-repeat;
+}
+
+.main_container
+{
+    height: 331px;
+    width: 351px;
+    display: inline-block;
+    /*background-color: #ffffff;*/
+}
+
+.contacts_container
+{
+    height: 283px;
+    width: 300px;
+    display: inline-block;
+    border-left: 1px solid #e5e5e5;
+    padding: 5px 0 0 43px;
+    margin: 21px 0 0 29px;
+}
+
+.header
+{
+    font: 23px/14px arial;
+    display: inline-block;
+    padding-left: 8px;
+}
+
+.data_contact_us
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.data_contact_us li
+{
+    width: 190px;
+    letter-spacing: 1.6px;
+    font: 14px/27px tahoma;
+    padding: 3px 0 0 53px;
+    margin: 0;
+}
+
+.data_contact_us .phone
+{
+    margin-top: 0px;
+    padding-top: 22px;
+    font: 14px/27px tahoma;
+    background: url("../images/phone.png") no-repeat scroll 14px 26px;
+    height: 24px;
+}
+
+.data_contact_us .fax
+{
+    font: 14px/23px tahoma;
+    background: url("../images/fax.png") no-repeat scroll 9px 3px;
+}
+
+.data_contact_us .email
+{
+    background: url("../images/email.png") no-repeat scroll 8px 7px;
+    letter-spacing: 1.37px;
+    font: 14px/26px tahoma;
+}
+
+.data_contact_us .address
+{
+    background: url("../images/address.png") no-repeat scroll 7px 2px;
+}
+
+.address_first_text
+{
+    letter-spacing: 2.5px;
+}
+
+.address_second_text
+{
+    letter-spacing: 1.4px;
+    position: relative;
+    top: 1px;
+}
+
+.address_third_text
+{
+    position: relative;
+    top: -4px;
+    letter-spacing: 1.4px;
+}
+
+.address_fourth_text
+{
+    position: relative;
+    top: -9px;
+    letter-spacing: 1.4px;
+}
+
+.line1
+{
+    display: inline-block;
+    background: url("../images/line.png") no-repeat scroll 0px 0px;
+    height: 1px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
