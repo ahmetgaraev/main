@@ -1,6 +1,7 @@
-body
+*
 {
     margin: 0;
+    padding: 0;
 }
 
 .title_blue
@@ -8,7 +9,7 @@ body
     border-bottom: 2px solid blue;
 }
 
-.conteiner_cat
+.container_cat
 {
     width: 240px; 
     height: 240px; 
@@ -33,42 +34,25 @@ body
     background: url("../images/texture2.jpg");
 }
 
-.button
-{
-    background: #eaeaea;
-    display: block;
-    width: 250px;
-    height: 50px;
-}
-
-.roll 
-{ 
-    position: relative; 
-    display: inline-block; 
-}
-
-.rollover 
-{ 
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-}
-
-.roll .rollover
-{ 
-    display: none; 
-}
-
-.roll:hover .rollover 
-{ 
-    display: block; 
-}
-
-.roll span 
+.rollover span
 {
     position: absolute;
-    top: 0px;   
-    left: 0px;
-    font: bold 12px/14px Arial, Helvetica, sans-serif;
+    font: bold 12px Arial;
     padding: 20px 90px;
+}
+
+.roll,
+.rollover
+{ 
+    display: block;
+    height: 54px;
+    width: 298px;
+    position: absolute;
+    background: url("../images/button.png");
+}
+
+.roll:hover .rollover
+{ 
+    
+    background: url("../images/button-over.png");
 }
