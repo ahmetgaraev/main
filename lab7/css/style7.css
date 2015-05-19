@@ -8,7 +8,7 @@
 {
     height: 246px;
     width: 317px;
-    display: inline-block;
+    display: block;
     background-color: #F4F4F4;
 }
 
@@ -16,11 +16,11 @@
 {
     height: 24px;
     width: 254px;
-    font: bold 18px/11px Arial;
+    font: bold 18px/20px Arial;
     background: url("../images/arrow.png") no-repeat scroll 1px 21px;
     border-bottom: 6px solid black;
     margin: 0 0 17px 15px;
-    padding: 18px 0 0 28px;
+    padding: 14px 0 4px 28px;
 }
 
 .main
