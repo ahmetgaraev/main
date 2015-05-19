@@ -4,113 +4,52 @@
     margin: 0;
 }
 
-.main
+body
 {
-    height: 331px;
-    width: 351px;
-    display: inline-block;
     background: url("../images/task2.png") no-repeat;
+    font: 14px Tahoma;
 }
 
-.main_container
+.contact_us
 {
-    height: 331px;
-    width: 351px;
-    display: inline-block;
-    /*background-color: #ffffff;*/
-}
-
-.contacts_container
-{
-    height: 283px;
-    width: 300px;
-    display: inline-block;
-    border-left: 1px solid #e5e5e5;
-    padding: 5px 0 0 43px;
+    padding-top: 7px;
+    width: ;
     margin: 21px 0 0 29px;
+    border-left: 1px solid black;
+    height: 275px;
 }
 
-.header
+h1
 {
-    font: 23px/14px arial;
-    display: inline-block;
-    padding-left: 8px;
+    font: 23px Arial;
+    margin: -8px 0 26px 51px;
 }
 
-.data_contact_us
+ul
 {
-    list-style: none;
-    display: inline-block;
+    width: 238px;
+    margin-left: 44px;
+    list-style-type: none;
 }
 
-.data_contact_us li
+li
 {
-    width: 190px;
-    letter-spacing: 1.6px;
-    font: 14px/27px tahoma;
-    padding: 3px 0 0 53px;
-    margin: 0;
+    height: 2px;
+    padding: 0 23px 27px 52px;
+    margin-bottom: 14px;
+    border-bottom: 1px dotted black;
 }
 
-.data_contact_us .phone
+.address
 {
-    margin-top: 0px;
-    padding-top: 22px;
-    font: 14px/27px tahoma;
-    background: url("../images/phone.png") no-repeat scroll 14px 26px;
-    height: 24px;
+    border-bottom: none;
+    line-height: 1.8;
+    margin-top: -4px;
 }
 
-.data_contact_us .fax
+.left
 {
-    font: 14px/23px tahoma;
-    background: url("../images/fax.png") no-repeat scroll 9px 3px;
-}
-
-.data_contact_us .email
-{
-    background: url("../images/email.png") no-repeat scroll 8px 7px;
-    letter-spacing: 1.37px;
-    font: 14px/26px tahoma;
-}
-
-.data_contact_us .address
-{
-    background: url("../images/address.png") no-repeat scroll 7px 2px;
-}
-
-.address_first_text
-{
-    letter-spacing: 2.5px;
-}
-
-.address_second_text
-{
-    letter-spacing: 1.4px;
-    position: relative;
-    top: 1px;
-}
-
-.address_third_text
-{
-    position: relative;
-    top: -4px;
-    letter-spacing: 1.4px;
-}
-
-.address_fourth_text
-{
-    position: relative;
-    top: -9px;
-    letter-spacing: 1.4px;
-}
-
-.line1
-{
-    display: inline-block;
-    background: url("../images/line.png") no-repeat scroll 0px 0px;
-    height: 1px;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+    position: absolute;
+    left: 80px;
+    margin-top: -2px;
 }
