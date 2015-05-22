@@ -34,24 +34,21 @@
     background: url("../images/texture2.jpg");
 }
 
-.roll
+.button_cat
 { 
-    display: block;
     height: 34px;
     width: 298px;
     background: url("../images/button.png") no-repeat;
     padding-top: 20px;
+    text-align: center;
 }
 
-.roll:hover
+.button_cat:hover
 { 
     background: url("../images/button-over.png") no-repeat;
 }
 
-.roll span
+.button_cat span
 {
     font: bold 12px Arial;
-    display: block;
-    height: 20px;
-    text-align: center;
 }
