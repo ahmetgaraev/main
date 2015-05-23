@@ -1,0 +1,50 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.container
+{
+  border: 2px solid black;
+  margin: 0 11px 16px 11px;
+}
+
+.header 
+{
+  height: 150px;
+  width: 100%;
+  background: #339999;
+}
+
+.container_center
+{
+  height: 500px;
+  width: 100%;
+}
+
+.sidebar
+{
+  height: 80%;
+  width: 25%;
+  background: #EE9955;
+  float: left;
+  
+}
+
+.content 
+{
+  height: 100%;
+  width: 75%;
+  background: #AA9977;
+  float: left;
+}
+
+.footer 
+{
+  height: 70px;
+  width: 100%;
+  background: #FFDDAA;
+}
