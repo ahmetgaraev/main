@@ -7,7 +7,6 @@
 body
 {
     font: 14px Tahoma;
-
 }
 
 .contact_us
@@ -21,47 +20,44 @@ body
 h1
 {
     font: 23px Arial;
-    margin: -8px 0 26px 51px;
+    margin: -8px 0 11px 51px;
 }
 
 ul
 {
     width: 238px;
     margin-left: 44px;
+    padding-top: 1px;
     list-style-type: none;
 }
 
 li
 {
-    height: 2px;
-    padding: 0 23px 27px 52px;
-    margin-bottom: 14px;
+    padding: 14px 23px 12px 52px;
     border-bottom: 1px dotted #e3e3e3;
+    color: #757575;
+}
+
+.phone
+{
+    background: url("../images/phone.png") no-repeat scroll 6px 6px;
+    
+}
+
+.fax
+{
+    background: url("../images/fax.png") no-repeat scroll 6px 6px;
+}
+
+.email
+{
+    background: url("../images/email.png") no-repeat scroll 6px 6px;
 }
 
 .address
 {
     border-bottom: none;
-    line-height: 1.8;
     margin-top: -4px;
-    background: url("../images/address.png") no-repeat scroll 6px -6px;
-    color: #737373;
-}
-
-.phone
-{
-    background: url("../images/phone.png") no-repeat scroll 6px -6px;
-    color: #7d7d7d;
-}
-
-.fax
-{
-    background: url("../images/fax.png") no-repeat scroll 6px -6px;
-    color: #7d7d7d;
-}
-
-.email
-{
-    background: url("../images/email.png") no-repeat scroll 6px -6px;
-    color: #737373;
+    line-height: 1.8;
+    background: url("../images/address.png") no-repeat scroll 6px 8px;
 }
