@@ -9,7 +9,9 @@
     {
         $content = '';
 
-        $templateFilePath = dirname(__FILE__) . "\\template\\" . $templateName;
+        $templateFilePath = dirname(__FILE__) . "\\..\\template\\" . $templateName;
+        echo $templateFilePath;
+        echo "<br>";
         if (file_exists($templateFilePath))
         {
             $content = file_get_contents($templateFilePath);
