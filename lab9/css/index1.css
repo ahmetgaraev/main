@@ -1,0 +1,67 @@
+.main
+{
+    width: 1000px;
+    min-height: 100%;
+    margin: 0 auto;
+    border: 1px solid;
+    border-top: none;
+    border-bottom: none;
+    /*background: url("../images/task11.png");*/
+}
+
+/* Here custom styles begin */
+
+.layer1
+{
+    width: 700px;
+    height: 50px;
+    background-color: #00FFFF;
+}
+
+.layer2
+{
+    width: 900px;
+    height: 30px;
+    background-color: #33CCFF;
+    margin-top: 10px;
+}
+
+.layer3
+{
+    width: 540px;
+    height: 340px;
+    background-color: #3399FF;
+    margin-top: 10px;
+}
+
+.layer4
+{
+    width: 200px;
+    height: 40px;
+    background-color: #9999FF;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.layer5
+{
+    width: 200px;
+    height: 70px;
+    background-color: #CC66FF;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.layer6
+{
+    width: 500px;
+    height: 50px;
+    background-color: #FF6666;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+/* Here custom styles end */
