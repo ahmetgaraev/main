@@ -61,3 +61,8 @@ li
     line-height: 1.8;
     background: url("../images/address.png") no-repeat scroll 6px 8px;
 }
+
+.increased
+{
+    font-weight: bold;
+}
