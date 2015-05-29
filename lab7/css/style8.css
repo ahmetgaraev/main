@@ -6,7 +6,7 @@
 
 body
 {
-    font: 14px Tahoma;
+    color: #757575;
 }
 
 .contact_us
@@ -33,6 +33,7 @@ ul
 
 li
 {
+	font: normal 14px Tahoma;
     padding: 14px 23px 12px 52px;
     border-bottom: 1px dotted #e3e3e3;
     color: #757575;
@@ -54,12 +55,21 @@ li
     background: url("../images/email.png") no-repeat scroll 6px 6px;
 }
 
+.company
+{
+    border-bottom: none;
+    line-height: 19px;
+    margin-top: -2px;
+    padding-bottom: 9px;
+    font-size: 16px;
+    background: url("../images/address.png") no-repeat scroll 6px 6px;
+}
+
 .address
 {
     border-bottom: none;
-    margin-top: -4px;
-    line-height: 1.8;
-    background: url("../images/address.png") no-repeat scroll 6px 8px;
+    line-height: 22px;
+    padding-top: 0;
 }
 
 .increased
