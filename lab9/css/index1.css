@@ -6,7 +6,6 @@
     border: 1px solid;
     border-top: none;
     border-bottom: none;
-    background: url("../images/task11.png") no-repeat;
 }
 
 /* Here custom styles begin */
@@ -41,7 +40,6 @@
     background-color: #9999FF;
     margin-top: 20px;
     margin-left: 20px;
-    display: inline-block;
 }
 
 .layer5
@@ -51,7 +49,6 @@
     background-color: #CC66FF;
     margin-top: 20px;
     margin-right: 20px;
-    display: inline-block;
 }
 
 .layer6
@@ -61,7 +58,6 @@
     background-color: #FF6666;
     margin-top: 15px;
     margin-left: 20px;
-    display: inline-block;
 }
 
 .layer7
@@ -69,9 +65,7 @@
     width: 100px;
     height: 70px;
     background-color: #660033;
-    /*
     margin-top: 20px;
-    */
     margin-left: 20px;
 }
 
@@ -80,7 +74,6 @@
     width: 80px;
     height: 70px;
     background-color: #000066;
-    display: inline-block;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -90,7 +83,6 @@
     width: 90px;
     height: 70px;
     background-color: #999966;
-    display: inline-block;
     margin-top: 20px;
     margin-right: 20px;
 }
