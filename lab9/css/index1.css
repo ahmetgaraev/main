@@ -31,6 +31,7 @@
     height: 340px;
     background-color: #3399FF;
     margin-top: 10px;
+	padding: 20px;
 }
 
 .layer4
@@ -38,7 +39,6 @@
     width: 200px;
     height: 40px;
     background-color: #9999FF;
-	margin: 20px 0 0 20px;
 }
 
 .layer5
@@ -46,15 +46,13 @@
     width: 250px;
     height: 70px;
     background-color: #CC66FF;
-	margin: 20px 20px 0 0;
 }
 
 .layer6
 {
-    width: 500px;
     height: 50px;
     background-color: #FF6666;
-	margin: 15px 0 20px 20px;
+	margin: 15px 0 20px 0;
 }
 
 .layer7
@@ -62,7 +60,6 @@
     width: 100px;
     height: 70px;
     background-color: #660033;
-    margin-left: 20px;
 }
 
 .layer8
@@ -70,7 +67,7 @@
     width: 80px;
     height: 70px;
     background-color: #000066;
-    margin-left: 20px;
+	margin-left: 15px;
 }
 
 .layer9
@@ -78,7 +75,6 @@
     width: 90px;
     height: 70px;
     background-color: #999966;
-    margin-right: 20px;
 }
 
 .layer10
@@ -106,7 +102,6 @@
 
 .layer13
 {
-    width: 400px;
     height: 50px;
     background-color: #6600CC;
     margin-top: 15px;
