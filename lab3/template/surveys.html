@@ -1,8 +1,8 @@
 <h1>Surveys</h1>
-  <ul class="nav nav-pills nav-stacked">
-    {foreach from=$files item=file}
-      <li>
-        <a href="survey_info.php?file={$folder}/{$file}">{$file}</a>
-      </li>
-    {/foreach}
-</ul>
+<table class="table table-striped">
+  {foreach from=$files item=file}
+    <tr>
+      <td><a href="survey_info.php?file={$folder}/{$file}">{$file}</a></td>
+    <tr>
+  {/foreach}
+</table>
