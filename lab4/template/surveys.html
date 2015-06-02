@@ -1,0 +1,8 @@
+<table class="table table-striped">
+  <th>Surveys</th>
+  {foreach from=$files item=file}
+    <tr>
+      <td><a href="survey_info.php?file={$folder}/{$file}">{$file}</a></td>
+    <tr>
+  {/foreach}
+</table>

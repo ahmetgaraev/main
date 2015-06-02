@@ -1,0 +1,10 @@
+<h1>Survey</h1>
+<table class="table">
+  <th>Key</th>
+  <th>Value</th>
+  {foreach from=$survey key=key item=value}
+    <tr>
+      <td>{$key} : </td><td>{$value}</td>
+    <tr>
+  {/foreach}
+</table>

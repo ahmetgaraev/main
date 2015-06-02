@@ -1,0 +1,17 @@
+<h1>Table sin</h1>
+<table>
+  <tr>
+    <td class="scale_table name">sin</td>
+    {foreach from=$table.0 key=minute item=minutes}
+      <td class="scale_table minute">{$minute}'</td>
+    {/foreach}
+  </tr>
+  {foreach from=$table key=degree item=degrees}
+    <tr>
+      <td class="scale_table degree">{$degree}&deg;</td>
+      {foreach from=$degrees key=minute item=value}
+        <td>{$value}</td>
+      {/foreach} 
+    </tr>
+  {/foreach}
+</table>
