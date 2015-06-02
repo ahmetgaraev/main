@@ -1,6 +1,13 @@
 <?php
     require_once('include/common.inc.php');
-    require_once('include/table_sin.php');
-
-    $vars = array();
-    buildLayout('image.html', $vars);
+    
+    $folder = 'uploads/images';
+    $files = scandir($folder);
+    unset($files[0], $files[1]);
+    
+    $vars = array(
+        'folder' => $folder,
+        'files' => $files, 
+    );
+    
+    buildLayout('images.html', $vars);
