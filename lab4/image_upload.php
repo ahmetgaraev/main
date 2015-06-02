@@ -14,18 +14,6 @@
             exit;
         }
 
-        $blacklist = array(".php", ".phtml", ".php3", ".php4");
-
-        foreach ($blacklist as $item) 
-        {
-            if ( preg_match("/$item\$/i", $_FILES['userfile']['name']) )
-            {
-                $vars['msg'] = "We do not allow uploading PHP files\n";
-                buildLayout('image_upload.html', $vars);
-                exit;
-            }
-        }
-
         $uploaddir = 'uploads/images/';
         $uploadfile = $uploaddir . date('YmdHis') . rand(10,100) . '.jpeg';
 
