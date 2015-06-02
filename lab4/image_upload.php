@@ -19,11 +19,11 @@
 
         if ( move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile) )
         {
-           $vars['msg'] = "File is valid, and was successfully uploaded.\n";
+            $vars['msg'] = "File is valid, and was successfully uploaded.\n";
         } 
         else 
         {
-             $vars['msg'] = "File uploading failed.\n";
+            $vars['msg'] = "File uploading failed.\n";
         }
     }
 
