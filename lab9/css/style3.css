@@ -6,7 +6,7 @@
 
 .main
 {
-    font: bold 14px Tahoma;
+    font: bold 14px/17px Tahoma;
 }
 
 .title_blue
@@ -74,7 +74,6 @@
 {
 	text-align: left;
     margin: 3px 0 0 39px;
-
 }
 
 .cat2 p
