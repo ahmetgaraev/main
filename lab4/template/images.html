@@ -2,6 +2,8 @@
 {foreach from=$files item=file}
   <p>
     <a href="{$folder}/{$file}" target="_blank">{$file}</a> 
-    <a href="image_delete/?path={$folder}/{$file}" target="_blank">Delete</a>
+    <a href="?path={$folder}/{$file}" target="_self">Delete</a>
   </p>
 {/foreach}
+<h3>Message:</h3>
+{$msg}

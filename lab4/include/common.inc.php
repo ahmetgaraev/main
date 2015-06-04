@@ -6,3 +6,4 @@
     require_once('request.inc.php');
 	require_once('string.inc.php');
 	require_once('survey.inc.php');
+    require_once('image.inc.php');
