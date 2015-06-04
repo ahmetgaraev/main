@@ -11,7 +11,7 @@ body
 
 .main
 {
-    font: 14px Tahoma;
+    font: bold 14px Tahoma;
 }
 
 .title_blue
@@ -73,7 +73,11 @@ body
     top: -45px;
     border-radius: 15px;
     padding: 6px 0 0 0;
-    font: bold 14px Tahoma;
+}
+
+.container_cat p
+{
+    margin: 3px 0 0 -1px;
 }
 
 .button_cat
@@ -83,8 +87,7 @@ body
     background: url("../images/button.png") no-repeat;
     padding-top: 15px;
     text-align: center;
-    margin-top: 245px;
-    margin-left: 369px;
+    margin: 245px 0 0 369px;
 }
 
 .button_cat:hover
