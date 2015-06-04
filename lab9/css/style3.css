@@ -77,12 +77,24 @@ body
 
 .container_cat p
 {
-    margin: 3px 0 0 -1px;
+	text-align: left;
+    margin: 3px 0 0 39px;
+
+}
+
+.cat2 p
+{
+    margin-left: 31px;
+}
+
+.cat3 p
+{
+    margin-left: 41px;
 }
 
 .button_cat
 { 
-    height: 34px;
+    height: 44px;
     width: 298px;
     background: url("../images/button.png") no-repeat;
     padding-top: 15px;
