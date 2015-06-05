@@ -33,3 +33,9 @@
 {
     padding-right: 80px;
 }
+
+.main li a
+{
+    color: #6B6B6B;
+    text-decoration: none;
+}
