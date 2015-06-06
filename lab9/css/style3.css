@@ -4,14 +4,20 @@
     padding: 0;
 }
 
+.center
+{
+    margin: 0 auto;
+}
+
 .main
 {
     font: bold 14px/17px Tahoma;
+    width: 800px;
 }
 
 .title_blue
 {
-    margin: 150px 0 0 118px;
+    margin: 0 0 0 0;
     border-bottom: 2px solid blue;
     padding-left: 347px;
     font: 34px Arial;
@@ -20,12 +26,17 @@
 
 .cat_hub
 {
-    padding: 35px 0 0 153px;
+    padding: 35px 0 0 35px;
+}
+
+.clear
+{
+    clear: both;
 }
 
 .container_cat
 {
-    width: 220px; 
+    width: 220px;
     height: 203px; 
     border: 1px solid black; 
     margin: 0 35px 0 0;
@@ -48,6 +59,7 @@
 .cat3
 {
     background: url("../images/texture2.jpg");
+    margin-right: 0;
 }
 
 .cat_year_hub
@@ -93,7 +105,7 @@
     background: url("../images/button.png") no-repeat;
     padding-top: 15px;
     text-align: center;
-    margin: 245px 0 0 369px;
+    margin: 20px auto 0;
 }
 
 .button_cat:hover
